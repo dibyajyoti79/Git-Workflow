@@ -133,7 +133,7 @@ When the `dev` branch is confirmed to be stable and ready for staging, the **Pro
    - The Project Lead or another team member will review the PR to ensure all changes are appropriate and stable.
 
 3. **Merge the PR**:
-   - Upon approval, the Project Lead or the designated reviewer will use the GitHub interface to merge the PR into the `stage` branch. This can include options to squash commits or merge without fast-forwarding as needed.
+   - Upon approval, merge the PR into the stage branch.
 
 4. **Deployment**:
    - The `stage` branch will automatically be deployed to the staging environment based on the configured CI/CD pipeline.
