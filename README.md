@@ -228,7 +228,7 @@ Once the hotfix has been tested:
    - The Project Lead or Release Manager will review the PR, ensuring that the hotfix is appropriate and has been tested adequately.
 
 3. **Merge the PR**:  
-   - Upon approval, the Project Lead or Release Manager will use the GitHub interface to merge the PR into the `main` branch. This can include options to squash commits or merge without fast-forwarding as needed.
+   - Upon approval, the Project Lead or Release Manager will merge the PR into the `main` branch.
 
 4. **Merge back into `dev` and `stage`**:  
    - It’s crucial to ensure that the hotfix is included in ongoing development by merging it back into both the `dev` and `stage` branches. This prevents the fix from being overwritten by future merges.
