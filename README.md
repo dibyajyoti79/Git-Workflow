@@ -194,7 +194,7 @@ Once testing in the staging environment is successfully completed and all issues
    - The Project Lead will review the PR to ensure that all features and fixes are production-ready and that the `stage` branch has passed all necessary tests, including User Acceptance Testing (UAT).
 
 3. **Merge the PR on GitHub**:  
-   - After approval, the Project Lead will merge the PR directly on GitHub. This automatically combines the changes from `stage` into `main` without the need for local merging.
+   - After approval, the Project Lead will merge the PR. This will combine the changes from `stage` into `main`.
    
 4. **Deployment**:  
    - The `main` branch is automatically deployed to the production environment as part of the CI/CD pipeline.
